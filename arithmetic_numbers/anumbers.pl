@@ -1,0 +1,1 @@
+$i=0;while($i<10000){@a=();$i++;$j=0;while($j<$i){$j++;push@a,$j if$i% $j==0}$s=0;foreach$x(@a){$s+=$x}print join",",$i,@a,"\n" if$s%($#a+1)==0}
